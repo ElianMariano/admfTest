@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import re
 
-class PresentValue:
+class FutureValue:
     def __init__(self, driver_path = "..", application_path="https://administracao-financeira.vercel.app/valor-futuro"):
         # Instancia do driver
         self.driver = webdriver.Chrome(executable_path=driver_path)
@@ -38,6 +38,8 @@ class PresentValue:
         self.result = float([i[0] for i in self.result][0])
 
         self.driver.close()
+
+        return self.result
 
 """
 EXAMPLE

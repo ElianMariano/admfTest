@@ -39,6 +39,8 @@ class PresentValue:
 
         self.driver.close()
 
+        return self.result
+
 """
 EXAMPLE
 teste = PresentValue(driver_path="C:\\Users\\Elian Mariano\\Documents\\Projetos Git\\chromedriver")
