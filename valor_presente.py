@@ -40,10 +40,3 @@ class PresentValue:
         self.driver.close()
 
         return self.result
-
-"""
-EXAMPLE
-teste = PresentValue(driver_path="C:\\Users\\Elian Mariano\\Documents\\Projetos Git\\chromedriver")
-teste.calculate(20, 3, 5)
-print("Valor: %s" % str(teste.result))
-"""
