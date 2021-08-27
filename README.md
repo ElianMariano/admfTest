@@ -11,5 +11,5 @@ Na pasta do projeto, é preciso que se crie um ambiente virtual e se instale as 
 
 > python -m pip install -r Requirements.txt
 
-Por fim, basta executar o arquivo princial:
-> python \_\_main\_\_.py
+Por fim, basta executar o arquivo principal, com o caminho para o driver do _Google Chrome_ na sua máquina:
+> python \_\_main\_\_.py _driver_
